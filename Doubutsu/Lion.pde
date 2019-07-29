@@ -10,7 +10,7 @@ boolean canMove(int toX, int toY) {
 
     if ((abs(toX-this.x) <= 1 && abs(toY-this.y) <=1) && !this.isCapturedByEnemy(toX, toY)) return true;
 
-    return false;
+    return true;
   }
 
   boolean isCapturedByEnemy(int toX, int toY) {
